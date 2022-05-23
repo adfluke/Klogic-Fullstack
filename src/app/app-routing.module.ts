@@ -11,6 +11,7 @@ import { ResultComponent } from './student/result/result.component';
 import { TeacherhomeComponent } from './teacher/teacherhome/teacherhome.component';
 import { TeachernamestudentComponent } from './teacher/teachernamestudent/teachernamestudent.component';
 import { TeacherscheduleComponent } from './teacher/teacherschedule/teacherschedule.component';
+import { LoginteacherComponent } from './login/loginteacher/loginteacher.component';
 
 const routes: Routes = [
   { path: '', redirectTo: 'home', pathMatch: 'full' },
@@ -25,6 +26,8 @@ const routes: Routes = [
   { path: 'teacherhome', component: TeacherhomeComponent},
   { path: 'teachernamestudent', component: TeachernamestudentComponent},
   { path: 'teacherschedule', component: TeacherscheduleComponent},
+  { path: 'loginteacher', component: LoginteacherComponent},
+
 
 ];
 

@@ -7,18 +7,21 @@
     background: #FF9933;
     margin: 0 -1rem;
     font-size: 36px;
+
   }
   &__content {
     min-height: calc(100vh - 178px);
-    border-radius: 10px;
+    border-radius: 50px;
     margin-top: -2rem;
-    background: white;
+    background: linear-gradient(-135deg, #0bd7f1, #f839f8);
     color: black;
-    font-size: 2rem;
+    font-size: 100px;
+
     &-data {
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%);
+
     }
   }
 }
@@ -34,11 +37,13 @@
     padding: 2.6rem 1rem;
     img {
       width: 200px;
+
     }
   }
   .mat-divider {
     border-top-width: 2px;
-    border-color: white;
+    border-color: #fff;
+
   }
   .mat-list-item {
     color: #000000 !important;
@@ -46,7 +51,8 @@
     height: 44px !important;
     margin-bottom: 4px;
     &:hover {
-      color: #f2f5f7 !important;
+      color: #ffffff !important;
+
     }
     ::ng-deep {
       .mat-list-item-content {
@@ -54,6 +60,7 @@
         margin: 0 8px;
         &:hover {
           background: #848488 !important;
+
         }
       }
     }
@@ -71,13 +78,32 @@
         background: #000000 !important;
         &:hover {
           background: #000000 !important;
+
         }
       }
     }
   }
   .mat-subheader {
-    color: #c5c5c5;
+    color: #ffffff;
     font-size: 0.8rem;
     font-weight: 100;
     letter-spacing: 1px;
+
   }
+.textcard{
+    // top: 50%;
+    // left: 50%;
+    // transform: translate(-50%, -50%);
+    text-align: left;
+    font-size: 1.3rem;
+    border-radius: 15px;
+}
+.subtitle{
+  font-size: 1.3rem;
+}
+
+.example-card{
+  // background: linear-gradient(-135deg, #d3f052, #c8c8e7);
+  border-radius: 30px;
+
+}
